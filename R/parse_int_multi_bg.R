@@ -1,6 +1,6 @@
 # This script read in interesting gene list file and convert to integer ID
-# $src_dir/parse_int_multi_bg.pl $interest_file $bg_file $geneset_use_file\_gene_id 1
-parse_int_multi_bg <- function(interest_file, bg_file, geneset_use_file_gene_id, 1){
+# $src_dir/parse_int_multi_bg.pl $interest_file $bg_file $geneset_use_file\_gene_id
+parse_int_multi_bg <- function(interest_file, bg_file, geneset_use_file_gene_id){
 	##geneset_use_file_gene_id input
 	#geneset_use_file_gene_id <- read.table(file=geneset_use_file_gene_id, header = F, sep = "\t", fill = TRUE)
 	#geneset_use_file_gene_id <- as.matrix(geneset_use_file_gene_id)
