@@ -98,7 +98,7 @@ LEGO_noperm <- function(network_file ## network file
 			#interest_gene$interest_gene_sample
 			#interest_gene$bg_gene_id
 
-			cmd = "LEGO_mul_bg geneset_use_file_id_gs geneset_use_file_id_gs_NW geneset_use_file_id_gs_CS geneset_use_file_id_gs_GS interest_file_id min max bg_file_id")
+			cmd = "LEGO_mul_bg geneset_use_file_id_gs geneset_use_file_id_gs_NW geneset_use_file_id_gs_CS geneset_use_file_id_gs_GS interest_file_id min max bg_file_id"
 			cat("\n*Run main program:\n\t", cmd, "\n")
 			system(cmd)
 		}else{
