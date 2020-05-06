@@ -1,5 +1,5 @@
 # LEGO
-Gene set function enrichment
+Gene set function enrichment analysis
 * INTRODUCTION
 ----------------------------------------------------------------------
 
