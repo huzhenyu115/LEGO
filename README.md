@@ -70,17 +70,22 @@ LEGO_noperm(<network file> <geneset file> <interest file> [options])
 	
 Example1 (for single interesting gene list file): 
 LEGO("data/FC2_human.txt", "data/GeneSet_human.txt", "data/input.txt")
+
 Example2 (for multiple interesting gene list file): 
 LEGO("data/FC2_human.txt", "data/GeneSet_human.txt", "data/input_mul.txt", multi=1)
+
 Example3 (for single interesting gene list file and filtered results): 
 LEGO("data/FC2_human.txt", "data/GeneSet_human.txt", "data/input.txt", filter=1)
+
 Example4 (for multiple interesting gene list file and filtered results): 
 LEGO("data/FC2_human.txt", "data/GeneSet_human.txt", "data/input_mul.txt", multi=1, filter=1)
+
 Example5 (for single interesting gene list file + bg file): 
 LEGO("data/FC2_human.txt", "data/GeneSet_human.txt", "data/input.txt", bg_file="demo/bg.txt")
 
 Example6 (for single interesting gene list file with background list): 
 LEGO_noperm("data/FC2_human.txt", "data/GeneSet_human.txt", "data/input.txt", bg_file="demo/bg.txt)
+
 Example7 (for multiple interesting gene list file with background list): 
 LEGO_noperm("data/FC2_human.txt", "data/GeneSet_human.txt", "data/input_mul.txt", multi=1, bg_file="data/bg.txt")
 
