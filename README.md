@@ -90,9 +90,14 @@ Example7 (for multiple interesting gene list file with background list):
 LEGO_noperm("data/FC2_human.txt", "data/GeneSet_human.txt", "data/input_mul.txt", multi=1, bg_file="data/bg.txt")
 
 Tips: 
+	
 	1. Output files: <interest file>_LEGO.txt, if you choose to filter & cluster enriched gene sets, another two files will be generated: <interest file>_LEGO_filter.txt <interest file>_LEGO_filter_cluster.txt (set -filter 1)
+	
 	2. The first time to run this program will take about several minutes to generate mid-files(according to the size of the network and genesets). If you want to re-generate the mid files, set `-pre_run to 1`; 
 	If you have already generated the mid-files for network and genesets, it will only take several seconds to calculate a new input gene list (set `-pre_run to generate mid files` to 0)
+	
 	3. The first time to use LEGO(), it will take maybe several minutes to generate the permutation results. We provide the pre-generated mid files for data/GeneSet_human.txt. 
+	
 	4. If you want to use the background file, you could only use LEGO_noperm();
+	
 	5. The gene ID in the network, gene set and input gene list must be the same ID system.
