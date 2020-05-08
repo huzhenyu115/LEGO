@@ -14,7 +14,7 @@ LEGO: a novel method for gene set over-representation analysis by incorporating 
 
 	You will need a Unix environment with a working C++ compiler to
 	compile the source files in src/. We recommend GCC>=4.2.
-	Besides, Perl and R are necessary for running this program.
+
 
 * USAGE
 ----------------------------------------------------------------------
